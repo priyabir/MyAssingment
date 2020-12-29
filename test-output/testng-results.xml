@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-29T12:33:48 IST" name="Suite" finished-at="2020-12-29T12:34:58 IST" duration-ms="70087">
+    <groups>
+    </groups>
+    <test started-at="2020-12-29T12:33:48 IST" name="Test" finished-at="2020-12-29T12:34:58 IST" duration-ms="70087">
+      <class name="test.test_class">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:33:48 IST" name="browserlaunch" finished-at="2020-12-29T12:34:07 IST" duration-ms="19777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="homeSearch()[pri:1, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:07 IST" name="homeSearch" finished-at="2020-12-29T12:34:42 IST" duration-ms="34922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeSearch -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:42 IST" name="screenshot" finished-at="2020-12-29T12:34:43 IST" duration-ms="848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeSearch status=SUCCESS method=test_class.homeSearch()[pri:1, instance:test.test_class@6989da5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="afterSearch()[pri:2, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:43 IST" name="afterSearch" finished-at="2020-12-29T12:34:46 IST" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSearch -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:46 IST" name="screenshot" finished-at="2020-12-29T12:34:46 IST" duration-ms="487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=afterSearch status=SUCCESS method=test_class.afterSearch()[pri:2, instance:test.test_class@6989da5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="getCurrent()[pri:3, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:46 IST" name="getCurrent" finished-at="2020-12-29T12:34:51 IST" duration-ms="5169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrent -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:51 IST" name="screenshot" finished-at="2020-12-29T12:34:52 IST" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getCurrent status=SUCCESS method=test_class.getCurrent()[pri:3, instance:test.test_class@6989da5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="getHistory()[pri:4, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:52 IST" name="getHistory" finished-at="2020-12-29T12:34:55 IST" duration-ms="3564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHistory -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:55 IST" name="screenshot" finished-at="2020-12-29T12:34:55 IST" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getHistory status=SUCCESS method=test_class.getHistory()[pri:4, instance:test.test_class@6989da5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="setexcel()[pri:5, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:55 IST" name="setexcel" finished-at="2020-12-29T12:34:56 IST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setexcel -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:56 IST" name="screenshot" finished-at="2020-12-29T12:34:57 IST" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setexcel status=SUCCESS method=test_class.setexcel()[pri:5, instance:test.test_class@6989da5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.test_class@6989da5e]" started-at="2020-12-29T12:34:57 IST" name="closeBrowser" finished-at="2020-12-29T12:34:58 IST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.test_class -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
